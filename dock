@@ -4,14 +4,14 @@
 # https://github.com/bripkens/dock
 #
 
-remote_repo=https://github.com/bripkens/dock.git
+remote_repo=https://github.com/crazycode/dock.git
 local_repo=$HOME/.dock-formulas
 working_dir=`pwd`
 
 
 version() {
   echo "$(basename $0) 1.2.1 by Ben Ripkens <bripkens.dev@gmail.com>"
-  echo "https://github.com/bripkens/dock"
+  echo "https://github.com/crazycode/dock"
 }
 
 
