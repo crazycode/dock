@@ -10,7 +10,7 @@ run --detach \
     --publish 61613:61613 \
     --publish 61616:61616 \
     --name dock-activemq \
-    aterreno/activemq-dockerfile
+    crazycode/activemq
 
 echo "Admin user:     admin"
 echo "Admin pw:       admin"

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+docker run --interactive \
+           --tty \
+           --rm \
+           -v $(pwd):/srv \
+           -w "/srv" \
+           crazycode/buildpack-deps bash

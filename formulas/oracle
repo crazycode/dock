@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source "${BASH_SOURCE%/*}/../common"
+
+force_stop dock-oracle
+
+run --detach \
+    --name dock-oracle \
+    --publish 50022:22 \
+    --publish 1521:1521 \
+    --publish 58080:8080 \
+    alexeiled/docker-oracle-xe-11g

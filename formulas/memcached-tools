@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source "${BASH_SOURCE%/*}/../common"
+
+docker run -i -t --rm \
+    --link dock-memcached:memcached1 \
+    --link dock-memcached2:memcached2 \
+    crazycode/memcached-tools bash
