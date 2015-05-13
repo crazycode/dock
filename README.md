@@ -69,7 +69,7 @@ dock -u                  # Initialise dock
 
 You can automate this with the following one-liner (assuming ~/bin is on your $PATH).
 ```
-curl https://raw.githubusercontent.com/bripkens/dock/master/dock -so ~/bin/dock && \
+curl https://raw.githubusercontent.com/crazycode/dock/master/dock -so ~/bin/dock && \
      chmod +x ~/bin/dock && \
      dock -u && \
      echo "dock installation successful. Try running 'dock'"

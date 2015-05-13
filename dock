@@ -91,7 +91,7 @@ unknown_formula() {
   echo "If you feel like $1 should be supported by dock, please" >&2
   echo "consider opening an issue or sending a pull request to" >&2
   echo >&2
-  echo "       https://github.com/bripkens/dock" >&2
+  echo "       https://github.com/crazycode/dock" >&2
   echo >&2
   echo "Thanks!" >&2
 }
