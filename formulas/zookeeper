@@ -9,4 +9,4 @@ run --detach \
     --publish 2888:2888 \
     --publish 3888:3888 \
     --name dock-zookeeper \
-    jplock/zookeeper:3.4.6
+    crazycode/zookeeper

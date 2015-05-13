@@ -4,12 +4,15 @@ source "${BASH_SOURCE%/*}/../common"
 
 force_stop dock-mysql
 
-root_pw="root"
+root_pw="mysqlpw"
 
 run --detach \
     --env MYSQL_ROOT_PASSWORD=$root_pw \
+    --env MYSQL_DATABASE=matrix \
+    --env MYSQL_DATABASE1=switcher \
+    --env MYSQL_DATABASE2=exchange \
     --publish 3306:3306 \
     --name dock-mysql \
-    mysql
+    crazycode/mysql
 
 echo "Password:       $root_pw"
