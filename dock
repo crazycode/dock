@@ -10,7 +10,7 @@ working_dir=`pwd`
 
 
 version() {
-  echo "$(basename $0) 1.2.2 by Ben Ripkens <bripkens.dev@gmail.com> forked by crazycode"
+  echo "$(basename $0) 1.3.0 by Ben Ripkens <bripkens.dev@gmail.com> and forked by crazycode"
   echo "https://github.com/crazycode/dock"
 }
 

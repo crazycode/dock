@@ -10,3 +10,5 @@ run --detach \
     --publish 15672:15672 \
     crazycode/rabbitmq
 
+echo "Admin user:     admin"
+echo "Admin password: Inspect the password via 'docker logs dock-rabbitmq'"

@@ -16,4 +16,8 @@ run --detach \
     --name dock-mysql \
     crazycode/mysql
 
-echo "Password:       $root_pw"
+echo "Root password:  $root_pw"
+echo
+echo "Database:       $db"
+echo "User:           $user"
+echo "User password:  $user_pw"
