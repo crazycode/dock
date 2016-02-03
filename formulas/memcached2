@@ -1,9 +1,0 @@
-#!/bin/bash
-
-source "${BASH_SOURCE%/*}/../common"
-
-force_stop dock-memcached2
-
-run --detach \
-    --name dock-memcached2 \
-    crazycode/memcached
